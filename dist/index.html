@@ -5,8 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/feather-icons"></script>
 </head>
-<body>
+<body class="bg-gray-100">
+  <header class="flex items-center justify-between bg-white rounded-xl p-4 m-4 shadow">
+    <div class="flex items-center">
+      <img src="https://imgs.search.brave.com/nky_pH9JogehcMhQIdG74KeGQ-qItDm7BCVEJ3E5PGs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMTA2/Njg3MjcvcGV4ZWxz/LXBob3RvLTEwNjY4/NzI3LmpwZWc_YXV0/bz1jb21wcmVzcyZj/cz10aW55c3JnYiZk/cHI9MSZ3PTUwMA" 
+           alt="Profile-Pic" 
+           class="w-16 h-16 rounded-full">
+      <span class="ml-4 font-semibold text-lg">Mahid Ahmed</span>
+    </div>
 
+    <nav>
+      <ul class="flex flex-row gap-4">
+        <li><button class="bg-blue-600 text-white px-4 py-2 rounded">All</button></li>
+        <li class="self-center">Projects</li>
+        <li class="self-center">Meeting</li>
+        <li class="self-center">Design</li>
+        <li><button class="bg-gray-300 px-3 py-2 rounded">+</button></li>
+      </ul>
+    </nav>
+    <button class="flex items-center gap-2 bg-orange-500 text-white px-4 py-2 rounded">
+      <i data-feather="settings"></i>
+      Setting
+    </button>
+  </header>
+  
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace();
+  </script>
 </body>
 </html>
