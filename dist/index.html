@@ -6,6 +6,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://unpkg.com/feather-icons"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-gray-100">
   <header class="flex items-center justify-between bg-white rounded-xl p-4 m-4 shadow">
@@ -38,14 +39,56 @@
   <main id="mainContainer" class="flex justify-between gap-2 m-4 p-4">
     <section id="left_section">
       <div id="noteTaking" class="flex gap-4">
-        <img src="/Jake-Task/assets/note-01-svgrepo-com.svg" alt="notes" class="w-[4px] h-[4px]">
-        <p id="allTask">All Notes</p>
+        <img src="/Jake-Task/assets/note-01-svgrepo-com.svg" alt="notes" class="w-6 h-6">
+        <p id="allTask" class="font-bold">All Notes</p>
       </div>
 
-      <div id="filterNotes">
+      <div id="filterNotes" class="flex justify gap-4">
         <p id="counts" class="text-gray-400">124 Notes</p>
-        <img src="/Jake-Task/assets/filter-svgrepo-com.svg" alt="filter" class="w-[4px] h-[4px]">
+        <img src="/Jake-Task/assets/filter-svgrepo-com.svg" alt="filter" class="w-6 h-6">
       </div>
+
+      <section id="brief" class="mt-4">
+        <div id="innerBrief" class="flex justify-between gap-4 bg-purple-100 rounded-lg p-4">
+          <img src="/Jake-Task/assets/bag-business-guard-svgrepo-com.svg" alt="bag" class="w-24 h-24">
+          <div id="briefDetails">
+            <p class="text-lg font-bold">Salsile Project Brief</p>
+            <p class="tracking-wider">No, going all perfect! Let me show you <br> images of the project.</p>
+            <div class="flex items-center gap-4 mt-2">
+              <button class="bg-blue-600 px-4 rounded h-6">View</button>
+              <p class="text-sm text-gray-400">07-06-2025</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="design" class="mt-4">
+        <div id="innerDesign" class="flex justify-between gap-4 bg-purple-100 rounded-lg p-4">
+          <img src="/Jake-Task/assets/monitor-svgrepo-com.svg" alt="bag" class="w-24 h-24">
+          <div id="designDetails">
+            <p class="text-lg font-bold">Design Management</p>
+            <p class="tracking-wider">We have to manage all our design <br> projects everyday in our tool.</p>
+            <div class="flex items-center gap-4 mt-2">
+              <button class="bg-blue-600 px-4 rounded h-6">View</button>
+              <p class="text-sm text-gray-400">07-06-2025</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tool" class="mt-4">
+        <div id="innerTool" class="flex justify-between gap-4 bg-purple-100 rounded-lg p-4">
+          <img src="/Jake-Task/assets/notepad-checklist-svgrepo-com.svg" alt="bag" class="w-24 h-24">
+          <div id="toolDetails">
+            <p class="text-lg font-bold">Daily Task Due</p>
+            <p class="tracking-wider">There is always something daily we have in our <br> hand which we have to get done.</p>
+            <div class="flex items-center gap-4 mt-2">
+              <button class="bg-blue-600 px-4 rounded h-6">View</button>
+              <p class="text-sm text-gray-400">07-06-2025</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   </main>
 </body>
