@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,92 +9,159 @@
   <script src="https://unpkg.com/feather-icons"></script>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body class="m-0 p-0 box-border min-h-screen bg-gray-100">
-    <header class="flex items-center justify-between bg-white rounded-xl p-4 m-4 shadow">
-      <div class="flex items-center">
-        <img src="https://imgs.search.brave.com/nky_pH9JogehcMhQIdG74KeGQ-qItDm7BCVEJ3E5PGs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMTA2/Njg3MjcvcGV4ZWxz/LXBob3RvLTEwNjY4/NzI3LmpwZWc_YXV0/bz1jb21wcmVzcyZj/cz10aW55c3JnYiZk/cHI9MSZ3PTUwMA" 
-             alt="Profile-Pic" 
-             class="w-16 h-16 rounded-full">
-        <span class="ml-4 font-semibold text-lg">Mahid Ahmed</span>
+  <header class="flex items-center justify-between bg-white rounded-xl p-4 m-4 shadow">
+    <div class="flex items-center">
+      <img
+        src="https://imgs.search.brave.com/nky_pH9JogehcMhQIdG74KeGQ-qItDm7BCVEJ3E5PGs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMTA2/Njg3MjcvcGV4ZWxz/LXBob3RvLTEwNjY4/NzI3LmpwZWc_YXV0/bz1jb21wcmVzcyZj/cz10aW55c3JnYiZk/cHI9MSZ3PTUwMA"
+        alt="Profile-Pic" class="w-16 h-16 rounded-full">
+      <span class="ml-4 font-semibold text-lg">Mahid Ahmed</span>
+    </div>
+    <nav>
+      <ul class="flex flex-row gap-12">
+        <li><button class="bg-blue-600 text-white px-4 py-2 rounded">All</button></li>
+        <li class="self-center">Projects</li>
+        <li class="self-center">Meeting</li>
+        <li class="self-center">Design</li>
+        <li><button class="bg-gray-300 px-3 py-2 rounded">+</button></li>
+      </ul>
+    </nav>
+    <button class="flex items-center gap-2 bg-orange-500 text-white px-4 py-2 rounded">
+      <i data-feather="settings"></i>
+      Setting
+    </button>
+  </header>
+  <main class="w-full flex">
+    <div class="p-4 m-4 w-1/2 bg-white rounded-2xl shadow">
+      <div class="flex items-center gap-4">
+        <i class='bx bx-file text-2xl'></i>
+        <h3 class="text-[#373737] text-2xl font-semibold">All Notes</h3>
       </div>
-      <nav>
-        <ul class="flex flex-row gap-12">
-          <li><button class="bg-blue-600 text-white px-4 py-2 rounded">All</button></li>
-          <li class="self-center">Projects</li>
-          <li class="self-center">Meeting</li>
-          <li class="self-center">Design</li>
-          <li><button class="bg-gray-300 px-3 py-2 rounded">+</button></li>
-        </ul>
-      </nav>
-      <button class="flex items-center gap-2 bg-orange-500 text-white px-4 py-2 rounded">
-        <i data-feather="settings"></i>
-        Setting
-      </button>
-    </header>
-    <main class="w-full">
-      <div class="p-4 m-4 w-1/2 bg-white rounded-2xl shadow">
-        <div class="flex items-center gap-4">
-          <i class='bx bx-file text-2xl'></i>
-          <h3 class="text-[#373737] text-2xl font-semibold">All Notes</h3>
+      <div class="flex items-center justify-between">
+        <p class="text-xl text-[#a5aace]">124 Notes</p>
+        <i class='bx bx-filter text-5xl text-[#838383]'></i>
+      </div>
+      <div>
+        <div class="flex gap-5 rounded-xl p-8 bg-[#e8edff] mt-5">
+          <div class="flex justify-center w-32 h-32 rounded-xl bg-[#b9b5ff]"><img src="images/icon-01.svg" alt=""></div>
+          <div class="flex flex-col justify-between w-full leading-4">
+            <h3 class="text-2xl font-semibold text-[#47484c]">
+              Salsile project brief
+            </h3>
+            <p class="text-[#99a0aa] text-base">
+              No, going all perfect! Let me show you images of the project.
+            </p>
+            <div class="flex items-center justify-between">
+              <span
+                class="flex items-center justify-items-start px-6 py-1 rounded-lg bg-white text-[#99a0aa] text-base font-normal"><i
+                  class='bx bx-time'></i>&nbsp;Time</span>
+              <p class="text-[#99a0aa] text-base font-normal">14-06-2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-5 rounded-xl p-8 bg-[#f7f7f7] mt-5">
+          <div class="flex justify-center w-32 h-32 rounded-xl bg-[#fece7a]"><img src="images/icon-02.svg" alt=""></div>
+          <div class="flex flex-col justify-between w-full leading-4">
+            <h3 class="text-2xl font-semibold text-[#47484c]">
+              Design management
+            </h3>
+            <p class="text-[#99a0aa] text-base">
+              We have to manage all our design design project everyday in one tool.
+            </p>
+            <div class="flex items-center justify-between">
+              <span
+                class="flex items-center justify-items-start px-6 py-1 rounded-lg bg-white text-[#99a0aa] text-base font-normal"><i
+                  class='bx bx-time'></i>&nbsp;Time</span>
+              <p class="text-[#99a0aa] text-base font-normal">14-06-2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-5 rounded-xl p-8 bg-[#f7f7f7] mt-5">
+          <div class="flex justify-center w-32 h-32 rounded-xl bg-[#b999f7]"><img src="images/icon-03.svg" alt=""></div>
+          <div class="flex flex-col justify-between w-full leading-4">
+            <h3 class="text-2xl font-semibold text-[#47484c]">
+              Daily task due
+            </h3>
+            <p class="text-[#99a0aa] text-base">
+              There is always some daily task we have in our hand which we have to do.
+            </p>
+            <div class="flex items-center justify-between">
+              <span
+                class="flex items-center justify-items-start px-6 py-1 rounded-lg bg-white text-[#99a0aa] text-base font-normal"><i
+                  class='bx bx-time'></i>&nbsp;Time</span>
+              <p class="text-[#99a0aa] text-base font-normal">14-06-2023</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- timothy -->
+    <!-- Right card -->
+    <div class="p-4 m-4 mx-auto max-w-xl space-y-6">
+      
+      <div class="bg-white rounded-2xl shadow p-6">
+        <div class="flex items-center justify-between ">
+          <img src="images/icon-01.svg" alt="" class="bg-[#b9b5ff]  rounded-xl">
+          <span>Salsile Project Brief</span>
+          <div>
+            <button class="bg-blue-500 w-auto px-4 py-2 rounded-md">Edit</button>
+
+          </div>
+
+        </div>
+        <div class="border-2 border-b-neutral-200 mt-5"></div>
+        <div class="mt-4">
+          <button class="bg-[#b9b5ff] text-xs px-3 py-1 rounded-xl">4 mins</button>
+        </div>
+        <div class="m-2">
+          <p>Salsile Inc. is a well-established fashion retailer specializing in </p>
+          <p>high quality clothing and accessories for men and women.<span class="bg-[#b9b5ff] inline-block">the</span>
+          </p>
+          <p class="bg-[#b9b5ff] inline-block">client is looking to revamp their existing e-commerce website to</p>
+          <p>enhance user experience,improve overall aesthetics and increase</p>
+          <p>online sales. The new design should reflect their brand identity as</p>
+          <p>a modern, and customer-centric fashion store.</p>
         </div>
         <div class="flex items-center justify-between">
-          <p class="text-xl text-[#a5aace]">124 Notes</p>
-          <i class='bx bx-filter text-5xl text-[#838383]'></i>
+          <div class="flex items-center gap-4 mt-6 text-gray-500 text-lg pt-4">
+            <button class="font-semibold">T</button>
+            <button class="font-bold">B</button>
+            <button class="italic">I</button>
+            <button class="underline">U</button>
+
+          </div>
+          <div class="mt-4 text-right">
+            <button class="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600">Save</button>
+          </div>
         </div>
-        <div>
-          <div class="flex gap-5 rounded-xl p-8 bg-[#e8edff] mt-5">
-            <div class="flex justify-center w-32 h-32 rounded-xl bg-[#b9b5ff]"><img src="images/icon-01.svg" alt=""></div>
-            <div class="flex flex-col justify-between w-full leading-4">
-              <h3 class="text-2xl font-semibold text-[#47484c]">
-                Salsile project brief
-              </h3>
-              <p class="text-[#99a0aa] text-base">
-                No, going all perfect! Let me show you images of the project.
-              </p>
-              <div class="flex items-center justify-between">
-                <span class="flex items-center justify-items-start px-6 py-1 rounded-lg bg-white text-[#99a0aa] text-base font-normal"><i class='bx bx-time'></i>&nbsp;Time</span>
-                <p class="text-[#99a0aa] text-base font-normal">14-06-2023</p>
-              </div>
-            </div>
-          </div>
-          <div class="flex gap-5 rounded-xl p-8 bg-[#f7f7f7] mt-5">
-            <div class="flex justify-center w-32 h-32 rounded-xl bg-[#fece7a]"><img src="images/icon-02.svg" alt=""></div>
-            <div class="flex flex-col justify-between w-full leading-4">
-              <h3 class="text-2xl font-semibold text-[#47484c]">
-                Design management
-              </h3>
-              <p class="text-[#99a0aa] text-base">
-                We have to manage all our design design project everyday in one tool.
-              </p>
-              <div class="flex items-center justify-between">
-                <span class="flex items-center justify-items-start px-6 py-1 rounded-lg bg-white text-[#99a0aa] text-base font-normal"><i class='bx bx-time'></i>&nbsp;Time</span>
-                <p class="text-[#99a0aa] text-base font-normal">14-06-2023</p>
-              </div>
-            </div>
-          </div>
-          <div class="flex gap-5 rounded-xl p-8 bg-[#f7f7f7] mt-5">
-            <div class="flex justify-center w-32 h-32 rounded-xl bg-[#b999f7]"><img src="images/icon-03.svg" alt=""></div>
-            <div class="flex flex-col justify-between w-full leading-4">
-              <h3 class="text-2xl font-semibold text-[#47484c]">
-                Daily task due
-              </h3>
-              <p class="text-[#99a0aa] text-base">
-                There is always some daily task we have in our hand which we have to do.
-              </p>
-              <div class="flex items-center justify-between">
-                <span class="flex items-center justify-items-start px-6 py-1 rounded-lg bg-white text-[#99a0aa] text-base font-normal"><i class='bx bx-time'></i>&nbsp;Time</span>
-                <p class="text-[#99a0aa] text-base font-normal">14-06-2023</p>
-              </div>
-            </div>
-          </div>
-  
-        </div>
-  
       </div>
-    </main>
+
+      <!-- To-do List Card -->
+      <div class="bg-white rounded-2xl shadow p-4 border border-gray-100">
+        <div class="flex gap-3">
+          <img src="images/task.svg" alt="" class="w-5">
+          <span>To-do list</span>
+        </div>
+        <div class="flex gap-3 mb-5">
+          <img src="images/taskList.svg" alt="" class="w-5 ">
+          <span>Prepare for the design meeting</span>
+        </div>
+
+        <div class="flex items-start justify-start">
+          <p class="text-gray-500 mt-1">10:30 AM</p>
+          <p class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded-md font-medium h-fit">Pending</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
   <script src="https://unpkg.com/feather-icons"></script>
   <script>
     feather.replace();
   </script>
 </body>
+
 </html>
